@@ -11,3 +11,25 @@ mobile app designed to track bank accounts, or, for me, client accounts. It allo
 transactions,” which I of course used to represent job instances.  Even still, there was an obvious feature gap between
 what this app provided and what was ideal and useful for my needs. There is definitely opportunity for a fully functioning
 app that directly addresses these issues in an efficient manner. 
+
+User Story 1: If the user chooses to view the "Client List", a view opens displaying the list of all clients on record, 
+possibly grouped into subcategories according to settings pre-defined by the user.
+
+User Story 2: If the user chooses to add a new account/client, a view opens allowing them to enter account information 
+like name, address, phone number, email, recurring job price, period of recurrence (in-season and off-season)
+
+User Story 3: If the user chooses to edit the information of an account, a view opens allowing them to change any of the 
+data associated with an account.
+
+User Story 4: If the user chooses to add a job instance, a view opens allowing them to fill in the data associated with 
+a job. This data includes: (1) client account, (2) job name, (3) job description, (4) date, (5) price of job (can select 
+either the recurring price associated with account or a custom price), (6) payment received from client (0 by default, 
+any amount here would be added to the balance on the client’s account
+
+User Story 5: If the user chooses to add a payment entry, a view opens allowing them to fill in the associated data: 
+(1) client for which payment was received, (2) date payment was received, (3) previous balance (displayed from account 
+data, not editable), (4) amount received
+
+User Story 6: If the user chooses to view the business summary, a view opens that displays their general business 
+statistics. This can include things such as today’s income, this week’s income, this month’s income, this year’s income, 
+and average income for each of those over all time
