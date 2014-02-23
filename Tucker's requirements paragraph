@@ -33,3 +33,11 @@ data, not editable), (4) amount received
 User Story 6: If the user chooses to view the business summary, a view opens that displays their general business 
 statistics. This can include things such as today’s income, this week’s income, this month’s income, this year’s income, 
 and average income for each of those over all time
+
+####
+
+User Story 7: If the user chooses to delete an account, they are given a warning screen to make sure that they want to delete the account. If they affirm it, the account will be deleted.
+
+User Story 8: If the user sets the pedometer to zero, the pedometer will start tracking the number of steps the user walks until the user stops moving, pauses the pedometer, or resets the pedometer to zero.
+
+User Story 9: If the user selects a photo from their phone's memory, it can be used as a profile photo for an account.
