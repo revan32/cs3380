@@ -1,0 +1,32 @@
+User Story 5: If the user chooses to add a payment entry, a view opens allowing them to fill in the associated data: (1) client for which payment was received, (2) date payment was received, (3) previous balance (displayed from account data, not editable), (4) amount received.
+
+Test 5
+Inputs: The user’s action to add a payment entry.
+Expected Output: The payment entry screen opens with empty drop-down fields for the associated data.
+Pass/Fail Criteria: If the payment entry screen opens, the test will have passed. Any other action, even the payment entry screen opening with fields that have already been completed, will means the test has failed.
+
+==============================================================================================
+
+User Story 6: If the user chooses to view the business summary, a view opens that displays their general business statistics. This can include things such as today’s income, this week’s income, this month’s income, this year’s income, and average income for each of those over all time.
+
+Test 6
+Inputs: The user’s action to view the business summary.
+Expected Output: The business summary screen with a view of general business statistics.
+Pass/Fail Criteria: If the business summary screen opens with the set business statistics, the test will have passed. The test will also have passed if the business summary doesn’t open due to the fact that no data has been entered. In this case, a warning box will appear letting the user know that they have entered no data. Any outcome other than these two events, such as having the warning box appear even when there is data in the program, will mean the test has failed.
+
+==============================================================================================
+
+User Story 7: If the user chooses to delete an account, they are given a warning screen to make sure that they want to delete the account. If they affirm it, the account will be deleted.
+
+Test 7
+Inputs: There are 3 inputs: the account to be deleted, the delete prompt, and the confirmation of the delete prompt.
+Expected Output: The expected output is the removal of the account and its associated data from the LawnCare Tracker’s memory.
+Pass/Fail Criteria: If a listing of accounts after the deletion does not contain the deleted account, the test will have passed. Any other outcome will mean the test has failed.
+
+==============================================================================================
+User Story 8: If the user sets the pedometer to zero, the pedometer will start tracking the number of steps the user walks until the user stops moving, pauses the pedometer, or resets the pedometer to zero.
+
+Test 8
+Inputs: The user’s prompt to set the pedometer to zero.
+Expected Output: The pedometer resets to zero and begins tracking the number of steps walked from that point onward.
+Pass/Fail Criteria: If the pedometer reads zero with a timestamp that matches the timestamp of the user’s prompt and the pedometer starts tracking movement until the user stops moving, pauses it, or resets the pedometer, the test will have passed. Any other outcome will mean the test has failed.
