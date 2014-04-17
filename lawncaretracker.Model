@@ -1,4 +1,25 @@
 package lawncaretracker;
-public class Model {
+
+class Model {
+
 // CODE GOES HERE
+
+   class Account {
+   
+   // CODE GOES HERE
+   
+   }
+   
+   class Job {
+   
+   // CODE GOES HERE
+   
+   }
+   
+   class Payment {
+   
+   // CODE GOES HERE
+   
+   }
+
 }
