@@ -1,0 +1,13 @@
+package lawncaretracker;
+
+public class View {
+
+// CODE GOES HERE
+
+   public static void main(String[] args) {
+   
+   // CODE GOES HERE
+   
+   }
+   
+}
