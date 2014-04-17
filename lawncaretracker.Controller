@@ -1,4 +1,7 @@
 package lawncaretracker;
-public class Controller {
+
+class Controller {
+
 // CODE GOES HERE
+
 }
